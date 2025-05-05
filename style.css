@@ -12,6 +12,7 @@
     width: 2040px;
     height: 1025px;
     position: relative;
+    margin-left: 248px;
   }
   
   .frame .overlap {
@@ -82,7 +83,7 @@
     position: absolute;
     width: 36px;
     height: 28px;
-    top: 534px;
+    top: 624px;
     left: 486px;
     object-fit: cover;
   }
@@ -91,7 +92,7 @@
     position: absolute;
     width: 39px;
     height: 30px;
-    top: 533px;
+    top: 624px;
     left: 544px;
     object-fit: cover;
   }
@@ -100,8 +101,8 @@
     position: absolute;
     width: 107px;
     height: 37px;
-    top: 573px;
-    left: 486px;
+    top: 668px;
+    left: 477px;
     background-color: var(--black);
     border-radius: 21px;
     border: 2px solid;
@@ -222,7 +223,7 @@
   
   .frame .p {
     position: absolute;
-    width: 529px;
+    width: 903px;
     top: 304px;
     left: 483px;
     font-family: var(--m3-body-small-font-family);
@@ -235,8 +236,8 @@
   }
   .frame .p1 {
     position: absolute;
-    width: 529px;
-    top: 304px;
+    width: 959px;
+    top: 404px;
     left: 483px;
     font-family: var(--m3-body-small-font-family);
     font-weight: var(--m3-body-small-font-weight);
@@ -256,23 +257,25 @@
     object-fit: cover;
   }
   /*projects page*/
-  .frame1 {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+  .framep {
+    background-color: thistle;
+    
+    width: 1489px;      /* Sets the width of the frame */
+    height: 1025px;     /* Sets the height of the frame */
   }
   
-  .frame .div1 {
-    background-color: #ffffff;
+  .framep .divp {
+    background-color: thistle;
     overflow: hidden;
-    width: 1103px;
-    height: 611px;
+    width: 2040px;
+    height: 1025px;
     position: relative;
+    margin-left: 380px;
   }
-  
-  .frame .text-wrapper1 {
+  .projects-tgher{
+    margin-left: 10%;
+  }
+  .framep .text-wrapper1p {
     position: absolute;
     width: 250px;
     top: 74px;
@@ -281,14 +284,14 @@
     font-family: var(--m3-display-large-font-family);
     font-weight: var(--m3-display-large-font-weight);
     color: var(--white);
-    font-size: var(--m3-display-large-font-size);
+    font-size: 484%;
     letter-spacing: var(--m3-display-large-letter-spacing);
     line-height: var(--m3-display-large-line-height);
     white-space: nowrap;
     font-style: var(--m3-display-large-font-style);
   }
   
-  .frame .text-wrapper-2 {
+  .framep .text-wrapper-2p {
     position: absolute;
     width: 69px;
     top: 22px;
@@ -305,7 +308,7 @@
     font-style: var(--m3-headline-small-font-style);
   }
   
-  .frame .line1 {
+  .framep .linep {
     position: absolute;
     width: 95px;
     height: 1px;
@@ -313,7 +316,7 @@
     left: -7136px;
   }
   
-  .frame .text-wrapper-3 {
+  .framep .text-wrapper-3p {
     position: absolute;
     width: 97px;
     top: 21px;
@@ -330,7 +333,7 @@
     font-style: var(--m3-headline-small-font-style);
   }
   
-  .frame .overlap-group1 {
+  .framep .overlap-group1p {
     position: absolute;
     width: 326px;
     height: 32px;
@@ -338,7 +341,7 @@
     left: 701px;
   }
   
-  .frame .text-wrapper-4 {
+  .framep .text-wrapper-4p{
     position: absolute;
     width: 81px;
     top: 0;
@@ -354,7 +357,7 @@
     font-style: var(--m3-headline-small-font-style);
   }
   
-  .frame .text-wrapper-5 {
+  .framep .text-wrapper-5p {
     position: absolute;
     width: 249px;
     top: 0;
@@ -370,7 +373,7 @@
     font-style: var(--m3-headline-small-font-style);
   }
   
-  .frame .text-wrapper-6 {
+  .framep .text-wrapper-6p {
     position: absolute;
     width: 89px;
     top: 0;
@@ -386,31 +389,31 @@
     font-style: var(--m3-headline-small-font-style);
   }
   
-  .frame .overlap1 {
+  .framep .overlap1p {
     position: absolute;
-    width: 302px;
-    height: 170px;
-    top: 218px;
+    width: 372px;
+    height: 216px;
+    top: 229px;
     left: 612px;
     background-image: url(https://c.animaapp.com/ma72l82s7lxMvn/img/confidence-back-1.png);
     background-size: cover;
     background-position: 50% 50%;
   }
   
-  .frame .text-wrapper-7 {
+  .framep .text-wrapper-7p {
     position: absolute;
-    width: 242px;
-    top: 49px;
+    width: 268px;
+    top: 86px;
     left: 37px;
     font-family: "Roboto", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 23px;
+    font-size: 28px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .frame .overlap-2 {
+  .framep .overlap-2p {
     position: absolute;
     width: 338px;
     height: 179px;
@@ -418,66 +421,220 @@
     left: 621px;
   }
   
-  .frame .image1 {
-    width: 338px;
-    height: 154px;
-    top: 0;
-    left: 0;
+  .framep .imagep {
+    width: 382px;
+    height: 213px;
+    top: 37px;
+    left: -14px;
     position: absolute;
     object-fit: cover;
   }
   
-  .frame .text-wrapper-81 {
+  .framep .text-wrapper-8p {
     position: absolute;
-    width: 286px;
-    top: 109px;
+    width: 302px;
+    top: 57px;
     left: 32px;
     font-family: "Roboto", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 23px;
+    font-size: 35px;
     letter-spacing: 0;
     line-height: normal;
+    color: #ffffff;
   }
   
-  .frame .div-wrapper1 {
+  .framep .div-wrapperp {
     position: absolute;
-    width: 437px;
-    height: 133px;
+    width: 523px;
+    height: 211px;
     top: 236px;
-    left: 89px;
+    left: 16px;
     background-image: url(https://c.animaapp.com/ma72l82s7lxMvn/img/image-7.png);
     background-size: cover;
     background-position: 50% 50%;
   }
   
-  .frame .text-wrapper-9 {
+  .framep .text-wrapper-9p {
     position: absolute;
-    width: 393px;
+    width: 406px;
     top: 34px;
     left: 22px;
     font-family: "Roboto", Helvetica;
     font-weight: 400;
     color: #000000;
-    font-size: 23px;
+    font-size: 34px;
     letter-spacing: 0;
     line-height: normal;
   }
   
-  .frame .img1 {
-    width: 455px;
-    height: 166px;
-    top: 410px;
-    left: 89px;
+  .framep .imgp {
+    width: 526px;
+    height: 214px;
+    top: 467px;
+    left: 17px;
     position: absolute;
     object-fit: cover;
   }
   
-  .frame .text-wrapper-10 {
+  .framep .text-wrapper-10p {
     position: absolute;
     width: 345px;
-    top: 153px;
-    left: 352px;
+    top: 181px;
+    left: 339px;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: #000000;
+    font-size: 173%;
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    font-style: var(--m3-headline-small-font-style);
+  }
+  /*About page*/
+  .framea {
+    background-color: thistle;
+    
+    width: 1489px;      /* Sets the width of the frame */
+    height: 1025px;     /* Sets the height of the frame */
+  }
+  
+  .framea .diva {
+    background-color: thistle;
+    overflow: hidden;
+    width: 2040px;
+    height: 1025px;
+    position: relative;
+    margin-left: 380px;
+  }
+  
+  .framea .text-wrappera {
+    position: absolute;
+    width: 250px;
+    top: 80px;
+    left: 440px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-display-large-font-family);
+    font-weight: var(--m3-display-large-font-weight);
+    color: var(--white);
+    font-size: 428%;
+    letter-spacing: var(--m3-display-large-letter-spacing);
+    line-height: var(--m3-display-large-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-display-large-font-style);
+  }
+  
+  .framea .text-wrapper-2a {
+    position: absolute;
+    width: 69px;
+    top: 30px;
+    left: 514px;
+    transform: rotate(-0.02deg);
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framea .linea {
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: -1679px;
+    left: -5541px;
+  }
+  
+  .framea .text-wrapper-3a {
+    position: absolute;
+    width: 97px;
+    top: 29px;
+    left: 593px;
+    transform: rotate(-1.15deg);
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framea .text-wrapper-4a {
+    position: absolute;
+    width: 74px;
+    top: 30px;
+    left: 699px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--red);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framea .overlap-groupa {
+    position: absolute;
+    width: 249px;
+    height: 32px;
+    top: 30px;
+    left: 782px;
+  }
+  
+  .framea .text-wrapper-5a {
+    position: absolute;
+    width: 249px;
+    top: 0;
+    left: 0;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framea .text-wrapper-6a {
+    position: absolute;
+    width: 89px;
+    top: 0;
+    left: 125px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framea .copy-of-IMGa {
+    position: absolute;
+    width: 210px;
+    height: 348px;
+    top: 185px;
+    left: 30px;
+    object-fit: cover;
+  }
+  
+  .framea .pa {
+    position: absolute;
+    width: 850px;
+    top: 192px;
+    left: 274px;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
     color: #000000;
@@ -485,5 +642,353 @@
     letter-spacing: var(--m3-headline-small-letter-spacing);
     line-height: var(--m3-headline-small-line-height);
     font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framea .interests-weba {
+    position: absolute;
+    width: 668px;
+    top: 445px;
+    left: 275px;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: #000000;
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    font-style: var(--m3-headline-small-font-style);
+  }
+  /*contact page*/
+  .framec {
+    background-color: thistle;
+    
+    width: 1489px;      /* Sets the width of the frame */
+    height: 1025px;     /* Sets the height of the frame */
+  }
+  
+  .framec .divc {
+     background-color: thistle;
+    overflow: hidden;
+    width: 2040px;
+    height: 1025px;
+    position: relative;
+    margin-left: 380px;
+  }
+  
+  .framec .text-wrapperc {
+    position: absolute;
+    width: 69px;
+    top: 30px;
+    left: 514px;
+    transform: rotate(-0.02deg);
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framec .linec {
+    position: absolute;
+    width: 85px;
+    height: 1px;
+    top: -835px;
+    left: -8368px;
+  }
+  
+  .framec .overlap-groupc {
+    width: 168px;
+    left: 605px;
+    position: absolute;
+    height: 32px;
+    top: 30px;
+  }
+  
+  .framec .text-wrapper-2c {
+    position: absolute;
+    width: 97px;
+    top: 1px;
+    left: 0;
+    transform: rotate(-1.15deg);
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framec .text-wrapper-3c {
+    position: absolute;
+    width: 72px;
+    top: 0;
+    left: 96px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framec .overlapc {
+    width: 249px;
+    left: 782px;
+    position: absolute;
+    height: 32px;
+    top: 30px;
+  }
+  
+  .framec .text-wrapper-4c {
+    position: absolute;
+    width: 249px;
+    top: 0;
+    left: 0;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framec .text-wrapper-5c {
+    width: 89px;
+    top: 0;
+    left: 125px;
+    color: var(--red);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framec .text-wrapper-6c {
+    width: 314px;
+    top: 68px;
+    left: 402px;
+    color: var(--white);
+    font-size:400%;
+    letter-spacing: var(--m3-display-large-letter-spacing);
+    line-height: var(--m3-display-large-line-height);
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-display-large-font-family);
+    font-weight: var(--m3-display-large-font-weight);
+    white-space: nowrap;
+    font-style: var(--m3-display-large-font-style);
+  }
+  
+  .framec .rectanglec {
+    position: absolute;
+    width: 1031px;
+    height: 84px;
+    top: 574px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .framec .text-wrapper-7c {
+    position: absolute;
+    width: 307px;
+    top: 200px;
+    left: 360px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .framec .text-wrapper-8c {
+    position: absolute;
+    width: 296px;
+    top: 284px;
+    left: 411px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .framec .text-wrapper-9c {
+    position: absolute;
+    width: 345px;
+    top: 369px;
+    left: 356px;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: #000000;
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    font-style: var(--m3-headline-small-font-style);
+  }
+  /*resume page*/
+  .framer {
+    background-color: thistle;
+    
+    width: 1489px;      /* Sets the width of the frame */
+    height: 1025px;     /* Sets the height of the frame */
+  }
+  
+  .framer .divr {
+    background-color: thistle;
+    overflow: hidden;
+    width: 2040px;
+    height: 1025px;
+    position: relative;
+    margin-left: 380px;
+  }
+  
+  .framer .text-wrapperr {
+    position: absolute;
+    width: 69px;
+    top: 30px;
+    left: 514px;
+    transform: rotate(-0.02deg);
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framer .liner {
+    position: absolute;
+    width: 106px;
+    height: 1px;
+    top: -1724px;
+    left: -7226px;
+  }
+  
+  .framer .overlap-groupr {
+    width: 168px;
+    left: 605px;
+    position: absolute;
+    height: 32px;
+    top: 30px;
+  }
+  
+  .framer .text-wrapper-2r {
+    position: absolute;
+    width: 97px;
+    top: 1px;
+    left: 0;
+    transform: rotate(-1.15deg);
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framer .text-wrapper-3r {
+    position: absolute;
+    width: 72px;
+    top: 0;
+    left: 96px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framer .overlapr {
+    width: 249px;
+    left: 782px;
+    position: absolute;
+    height: 32px;
+    top: 30px;
+  }
+  
+  .framer .text-wrapper-4r {
+    position: absolute;
+    width: 249px;
+    top: 0;
+    left: 0;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--red);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framer .text-wrapper-5r {
+    position: absolute;
+    width: 89px;
+    top: 0;
+    left: 125px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--white);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-headline-small-font-style);
+  }
+  
+  .framer .text-wrapper-6r {
+    position: absolute;
+    width: 314px;
+    top: 75px;
+    left: 374px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: var(--m3-display-large-font-family);
+    font-weight: var(--m3-display-large-font-weight);
+    color: var(--white);
+    font-size: 360%;
+    letter-spacing: var(--m3-display-large-letter-spacing);
+    line-height: var(--m3-display-large-line-height);
+    white-space: nowrap;
+    font-style: var(--m3-display-large-font-style);
+  }
+  
+  .framer .imager {
+    position: absolute;
+    width: 1035px;
+    height: 585px;
+    top: 135px;
+    left: 66px;
+    object-fit: cover;
   }
   

@@ -27,4 +27,20 @@
     --m3-body-small-line-height: 16px;
     --m3-body-small-font-style: normal;
   }
+  :roota {
+    --white: rgba(0, 0, 0, 1);
+    --red: rgba(255, 0, 0, 1);
+    --m3-display-large-font-family: "Roboto", Helvetica;
+    --m3-display-large-font-weight: 400;
+    --m3-display-large-font-size: 57px;
+    --m3-display-large-letter-spacing: -0.25px;
+    --m3-display-large-line-height: 64px;
+    --m3-display-large-font-style: normal;
+    --m3-headline-small-font-family: "Roboto", Helvetica;
+    --m3-headline-small-font-weight: 400;
+    --m3-headline-small-font-size: 24px;
+    --m3-headline-small-letter-spacing: 0px;
+    --m3-headline-small-line-height: 32px;
+    --m3-headline-small-font-style: normal;
+  }
   
