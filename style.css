@@ -128,7 +128,7 @@
     position: absolute;
     width: 69px;
     top: 21px;
-    left: 506px;
+    left: 644px;
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
@@ -151,8 +151,8 @@
   .frame .text-wrapper-7 {
     position: absolute;
     width: 97px;
-    top: 24px;
-    left: 602px;
+    top: 21px;
+    left: 730px;
     transform: rotate(-1.15deg);
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
@@ -168,8 +168,8 @@
   .frame .text-wrapper-8 {
     position: absolute;
     width: 79px;
-    top: 21px;
-    left: 699px;
+    top: 20px;
+    left: 830px;
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
@@ -193,7 +193,7 @@
     position: absolute;
     width: 249px;
     top: 0;
-    left: 0;
+    left: 136px;
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
@@ -209,7 +209,7 @@
     position: absolute;
     width: 89px;
     top: 0;
-    left: 136px;
+    left: 260px;
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
@@ -252,7 +252,7 @@
     position: absolute;
     width: 311px;
     height: 466px;
-    top: 46px;
+    top: 188px;
     left: 84px;
     object-fit: cover;
   }
@@ -375,13 +375,13 @@
   
   .framep .text-wrapper-6p {
     position: absolute;
-    width: 89px;
-    top: 0;
-    left: 213px;
+    width: 69px;
+    top: 21px;
+    left: 644px;
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
-    color: var(--white);
+    color: var(--red);
     font-size: var(--m3-headline-small-font-size);
     letter-spacing: var(--m3-headline-small-letter-spacing);
     line-height: var(--m3-headline-small-line-height);
@@ -607,13 +607,13 @@
   
   .framea .text-wrapper-6a {
     position: absolute;
-    width: 89px;
-    top: 0;
-    left: 125px;
+    width: 69px;
+    top: 21px;
+    left: 644px;
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
-    color: var(--white);
+    color: var(--red);
     font-size: var(--m3-headline-small-font-size);
     letter-spacing: var(--m3-headline-small-letter-spacing);
     line-height: var(--m3-headline-small-line-height);
@@ -664,7 +664,11 @@
     width: 1489px;      /* Sets the width of the frame */
     height: 1025px;     /* Sets the height of the frame */
   }
-  
+  .ctitle{
+    margin-top: 102px;
+    margin-left: 413px;
+    font-size: 335%;
+  }
   .framec .divc {
      background-color: thistle;
     overflow: hidden;
@@ -781,19 +785,19 @@
   }
   
   .framec .text-wrapper-6c {
-    width: 314px;
-    top: 68px;
-    left: 402px;
-    color: var(--white);
-    font-size:400%;
-    letter-spacing: var(--m3-display-large-letter-spacing);
-    line-height: var(--m3-display-large-line-height);
     position: absolute;
+    width: 69px;
+    top: 21px;
+    left: 644px;
     text-shadow: 0px 4px 4px #00000040;
-    font-family: var(--m3-display-large-font-family);
-    font-weight: var(--m3-display-large-font-weight);
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--red);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
     white-space: nowrap;
-    font-style: var(--m3-display-large-font-style);
+    font-style: var(--m3-headline-small-font-style);
   }
   
   .framec .rectanglec {
@@ -969,18 +973,18 @@
   
   .framer .text-wrapper-6r {
     position: absolute;
-    width: 314px;
-    top: 75px;
-    left: 374px;
+    width: 69px;
+    top: 21px;
+    left: 644px;
     text-shadow: 0px 4px 4px #00000040;
-    font-family: var(--m3-display-large-font-family);
-    font-weight: var(--m3-display-large-font-weight);
-    color: var(--white);
-    font-size: 360%;
-    letter-spacing: var(--m3-display-large-letter-spacing);
-    line-height: var(--m3-display-large-line-height);
+    font-family: var(--m3-headline-small-font-family);
+    font-weight: var(--m3-headline-small-font-weight);
+    color: var(--red);
+    font-size: var(--m3-headline-small-font-size);
+    letter-spacing: var(--m3-headline-small-letter-spacing);
+    line-height: var(--m3-headline-small-line-height);
     white-space: nowrap;
-    font-style: var(--m3-display-large-font-style);
+    font-style: var(--m3-headline-small-font-style);
   }
   
   .framer .imager {
