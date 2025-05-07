@@ -376,12 +376,12 @@
   .framep .text-wrapper-6p {
     position: absolute;
     width: 69px;
-    top: 21px;
-    left: 644px;
+    top: 2px;
+    left: 177px;
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
-    color: var(--red);
+    color: black;
     font-size: var(--m3-headline-small-font-size);
     letter-spacing: var(--m3-headline-small-letter-spacing);
     line-height: var(--m3-headline-small-line-height);
@@ -608,12 +608,12 @@
   .framea .text-wrapper-6a {
     position: absolute;
     width: 69px;
-    top: 21px;
-    left: 644px;
+    top: 1px;
+    left: 102px;
     text-shadow: 0px 4px 4px #00000040;
     font-family: var(--m3-headline-small-font-family);
     font-weight: var(--m3-headline-small-font-weight);
-    color: var(--red);
+    color: black;
     font-size: var(--m3-headline-small-font-size);
     letter-spacing: var(--m3-headline-small-letter-spacing);
     line-height: var(--m3-headline-small-line-height);
