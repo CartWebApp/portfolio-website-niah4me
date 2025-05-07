@@ -1,4 +1,74 @@
+/*for all*/
+/* Base desktop-first styles already defined */
 
+/* Tablet screens (up to 1024px) */
+@media only screen and (max-width: 1024px) {
+  .frame, .framep, .framea, .framec, .framer {
+    width: 100%;
+    height: auto;
+  }
+
+  .frame .div, .framep .divp, .framea .diva, .framec .divc, .framer .divr {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .text-wrapper, .text-wrapper-2, .text-wrapper-3, .text-wrapper-4,
+  .text-wrapper-5, .text-wrapper-6, .p, .p1 {
+    font-size: 90%;
+    left: 5%;
+    right: 5%;
+  }
+
+  .copy-of-IMG, .copy-of-IMGa {
+    display: none; /* Hide large images on smaller screens */
+  }
+}
+
+/* Mobile screens (up to 768px) */
+@media only screen and (max-width: 768px) {
+  .frame, .framep, .framea, .framec, .framer {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  }
+
+  .frame .div, .framep .divp, .framea .diva, .framec .divc, .framer .divr {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .frame .overlap, .frame .overlap-group, .frame .overlap-2,
+  .framep .overlap-group1p, .framep .overlap-2p, .framea .overlap-groupa,
+  .framec .overlap-groupc, .framec .overlapc {
+    position: static;
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  .frame .text-wrapper, .frame .text-wrapper-2, .frame .text-wrapper-3,
+  .frame .text-wrapper-4, .frame .text-wrapper-5, .frame .text-wrapper-6,
+  .frame .text-wrapper-7, .frame .text-wrapper-8, .frame .text-wrapper-9,
+  .frame .text-wrapper-10, .p, .p1,
+  .framep .text-wrapper1p, .framep .text-wrapper-2p,
+  .framea .text-wrappera, .framea .text-wrapper-2a,
+  .framec .text-wrapperc, .framec .text-wrapper-2c {
+    font-size: 80%;
+    left: 10px !important;
+    right: 10px !important;
+    width: 90% !important;
+    position: static !important;
+  }
+
+  .ctitle {
+    margin-left: 0;
+    font-size: 200%;
+    text-align: center;
+  }
+}
+
+/*for main page-index page*/
 .frame {
     background-color: thistle;
     
