@@ -331,6 +331,48 @@ html {
     object-fit: cover;
   }
   /*projects page*/
+  .buttonp {
+    display: inline-block;
+    margin-left: 839px;
+    margin-top: 1305px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+   
+  border-radius: 48%;
+ 
+  }
+  
+  .buttonp span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonp span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonp:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonp:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
   .recent-work {
     background-color: thistle;
@@ -341,7 +383,7 @@ html {
   }
   
   .recent-work .divp {
-    background-color: #ffffff;
+    background-color: thistle;
     width: 1110px;
     height: 1390px;
     position: relative;
@@ -1431,7 +1473,7 @@ html {
 }
 
 .recent-workl .divl {
-  background-color: #ffffff;
+  background-color: thistle;
   width: 1110px;
   height: 1390px;
   position: relative;
@@ -1517,7 +1559,7 @@ html {
   font-family: "Raleway", Helvetica;
   font-weight: 800;
   color: #080808;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
