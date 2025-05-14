@@ -251,7 +251,7 @@ html {
     font-size: var(--m3-headline-small-font-size);
     letter-spacing: var(--m3-headline-small-letter-spacing);
     line-height: var(--m3-headline-small-line-height);
-    white-space: nowrap;
+   
     font-style: var(--m3-headline-small-font-style);
   }
   
